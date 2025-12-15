@@ -1,0 +1,31 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body {
+    padding-right: 4px;
+    background-color: rgb(124, 116, 193);
+    color: rgb(19, 19, 19);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lista {
+    display: block;
+    grid-template-columns: auto 1fr;
+    column-gap: 10px;
+ }
+
+.lista dd {
+    color:rgb(240, 236, 236);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+
+
+

@@ -16,7 +16,7 @@ h1 {
 }
 
 .lista {
-    display: block;
+    display: grid ;
     grid-template-columns: auto 1fr;
     column-gap: 10px;
  }
@@ -24,7 +24,7 @@ h1 {
  dt {
     font-weight: bold;
  }
- 
+
  dd {
     color:rgb(223, 225, 231);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
